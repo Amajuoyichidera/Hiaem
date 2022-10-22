@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+}
+.church-logo {
+    height: 8vh;
+}
+
+.btn {
+    background-color: #2F26A5;
+border-radius: 12px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+color: white;
+
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 15px solid #2F26A5;
+    margin-bottom: 50px;
+  }
+  .quick {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .vec {
+    display: flex;
+    gap: 20px;
+  }
+  .vec1 {
+    height: 3vh;
+  }
+  .copy, .sub {
+    margin-top: 40px;
+  }
+  .email {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    padding-right: 100px;
+  }
+.crib {
+  background-color: #2F26A5;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 17px;
+  margin-left: -50px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+  
+   text-decoration: none; 
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 24px;
+    background-color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-branding {
+    font-size: 2rem;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #372865;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .hamburger{
+        display: block;
+    } 
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+       transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+     }
+
+     .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #372865;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+     }
+
+     a {
+        color: white;
+     }
+
+     .nav-item {
+        margin: 16px 0;
+     }
+
+     .nav-menu.active {
+        left: 0;
+     }
+}

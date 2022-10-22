@@ -162,7 +162,7 @@ color: white;
     justify-content: center;
   }
   .wear {
-    height: 68vh; 
+    height: 72vh; 
     width: 54vw;
   }
   .all {
@@ -171,7 +171,7 @@ color: white;
   .up {
     background-color: #f9f9ff;
     padding: 50px;
-   margin-bottom: 100px;
+   margin-bottom: 80px;
   }
   .evt {
     display: flex;
@@ -195,15 +195,87 @@ color: white;
   .join {
     background-color: #2F26A5;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 12px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: -30px;
   }
 
+  .aged {
+    background-color: #8E88E2;
+  }
+  .con6 {
+    background-color: white;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 410px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 15px solid #2F26A5;
+  }
+  .quote {
+    height: 15vh;
+    margin-top: 35px;
+  }
+  .in {
+    background-color: #2F26A5;
+    color: white;
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
 
-
-
+  footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-top: 15px solid #2F26A5;
+    margin-bottom: 50px;
+  }
+  .quick {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .vec {
+    display: flex;
+    gap: 20px;
+  }
+  .vec1 {
+    height: 3vh;
+  }
+  .copy, .sub {
+    margin-top: 40px;
+  }
+  .email {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    padding-right: 100px;
+  }
+.crib {
+  background-color: #2F26A5;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 17px;
+  margin-left: -50px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
 
 
 
