@@ -23,11 +23,53 @@ padding-right: 30px;
 color: white;
 
 }
-
-
-
-
-
+.con {
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 120px;
+  color: black;
+}
+.sec1 {
+  margin-bottom: 80px;
+}
+.sec2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.sec3 {
+  padding-bottom: 50px;
+}
+.wat {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.lor {
+  padding-top: 100px;
+}
+.man {
+  width: 350px;
+  height: 335px;
+  border-radius: 5px;
+}
+.sec4 {
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+.anam {
+  background-color: #F5F2F0;
+  padding: 50px;
+  border-radius: 5px;
+}
+.fig {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+}
 
 footer {
     display: flex;
