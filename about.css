@@ -223,7 +223,7 @@ a {
      .con {
       position: absolute;
       margin-top: -80px;
-      margin-left: 70px;
+      margin-left: 55px;
       margin-right: 20px;
       text-align: center;
       padding-bottom: 0px;
@@ -274,8 +274,16 @@ a {
     .none1 {
       display: block;
     }
+    .man {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
     .lor {
       padding-top: 30px;
+    }
+    .lor p {
+      padding-left: 10px;
+      padding-right: 10px;
     }
     .lor h3 {
       font-size: 3.5vh;
